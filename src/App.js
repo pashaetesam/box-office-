@@ -8,8 +8,7 @@ import Home from './pages/Home'
 
 const App = () => {
   return (
-    <div>
-    <Nav />
+  
   <Switch>
       <Route exact= 'true' path='/'>
          <h1> <Home /> </h1>
@@ -22,7 +21,7 @@ const App = () => {
       </Route>
      
   </Switch>
-  </div>
+
   )
 }
 
